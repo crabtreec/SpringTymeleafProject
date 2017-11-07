@@ -4,7 +4,6 @@ public class Student {
     String firstName;
     String lastName;
     Grade grade;
-    Boolean enrolled;
 
     public Student() {
 
@@ -40,14 +39,5 @@ public class Student {
 
     }
 
-    public Boolean getEnrolled() {
-        return enrolled;
-
-    }
-
-    public void setEnrolled(Boolean enrolled) {
-        this.enrolled = enrolled;
-
-    }
 }
 
